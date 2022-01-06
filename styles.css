@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2em;
 
 }
 
@@ -29,6 +30,7 @@ body {
   min-width: 500px;
   min-height: 500px;
   width: 100%;
+  border: 4px solid slateblue;
 
 
   display: flex;
@@ -43,5 +45,5 @@ body {
 
 .square {
   flex: 1;
-  background-color: hsl(248, 23%, 80%);
+  background-color: white;
 }
