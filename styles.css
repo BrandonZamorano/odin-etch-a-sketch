@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,.36);
+  margin: 1em;
+}
+
+
+.grid {
+  
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  flex: 1;
+  padding: 1rem;
+  background-color: hsl(248, 23%, 80%);
+}
